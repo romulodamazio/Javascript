@@ -1,4 +1,4 @@
-function verificar(){
+function verificar() {
     var data = new Date()
     var ano = data.getFullYear()
     var fano = document.getElementById('txtano')
@@ -10,7 +10,7 @@ function verificar(){
     } else {
         var fsex = document.getElementsByName('radsex')
         var idade = ano - Number(fano.value)
-        res.innerHTML(` Idade calculada: ${idade}`)
+        res.innerHTML = `Idade calculada: ${idade}`
 
     }
 }
