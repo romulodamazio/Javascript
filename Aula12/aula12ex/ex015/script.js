@@ -23,7 +23,7 @@ function verificar() {
             }
             else if ( idade < 21){
                 //jovem
-                img.setAttribute('src', 'foto-jovem-m.png')
+                img.setAttribute('src', 'foto-jovem-m.png')  
             }
             else if ( idade < 50){
                 //adulto
